@@ -30,7 +30,7 @@ var draw_graph = function(graphType,obj){
 
 	//鼠标按下获取 开始xy开始画图
 	var mousedown = function(e){
-		scroolTop = $(window).scrollTop();
+		scrollTop = $(window).scrollTop();
 		scroolLeft = $(window).scrollLeft();
 		canvasTop = $(canvas).offset().top - scroolTop;
 		canvasLeft = $(canvas).offset().left - scroolLeft;
